@@ -1,0 +1,1 @@
+geth --datadir "." --nousb --networkid 38313 --mine --miner.threads 1 --nodiscover --http --http.port "8545" --port "30303" --http.corsdomain "*" --http.api eth,personal,web3,net --ipcpath "~/.ethereum/geth.ipc"
